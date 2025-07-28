@@ -16,8 +16,8 @@ setup(
     author_email='satya.almasian@gmail.com',
     description='quantity extractor',
     install_requires=['fuzzywuzzy==0.18.0', 'more_itertools','ordered-set','python-Levenshtein',
-                      'spacy~=3.8.7', 'greek','spacy-legacy','requests',
-                      'regex','emoji==1.7','torch==2.0.0','spacy-transformers~=1.3.8','protobuf==3.20.1','inflect==5.4.0',
+                      'spacy==3.8.7', 'greek','spacy-legacy','requests',
+                      'regex','emoji==1.7','torch==2.0.0','spacy-transformers==1.3.8','protobuf==3.20.1','inflect==5.4.0',
                       'spacy_download','typing_extensions==4.4.0','numpy'],
 )
 
