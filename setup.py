@@ -6,8 +6,9 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name='CQE',
     version='2.0.1',
-    packages=['CQE','CQE.unit_classifier'],
-    package_data={'': ['unit.json','unit_models.zip'],},# both has to be empty
+    packages=['CQE', 'CQE.unit_classifier'],
+    # both has to be empty
+    package_data={'': ['unit.json', 'unit_models.zip'], },
     url='https://github.com/vivkaz/CQE',
     license='',
     long_description_content_type="text/markdown",
@@ -15,14 +16,8 @@ setup(
     author='satyaalmasian and vivian kazakova',
     author_email='satya.almasian@gmail.com',
     description='quantity extractor',
-    install_requires=['fuzzywuzzy==0.18.0', 'more_itertools','ordered-set','python-Levenshtein',
-                      'spacy==3.8.7', 'greek','spacy-legacy','requests',
-                      'regex','emoji==1.7','torch==2.0.0','spacy-transformers==1.3.8','protobuf==3.20.1','inflect==5.4.0',
-                      'spacy_download','typing_extensions==4.4.0','numpy'],
+    install_requires=['fuzzywuzzy==0.18.0', 'more_itertools', 'ordered-set', 'python-Levenshtein',
+                      'spacy==3.8.7', 'greek', 'spacy-legacy', 'requests',
+                      'regex', 'emoji==1.7', 'torch 2.7.1', 'spacy-transformers==1.3.8', 'protobuf==3.20.1', 'inflect==5.4.0',
+                      'spacy_download', 'typing_extensions==4.4.0', 'numpy'],
 )
-
-
-
-
-
-
