@@ -1,5 +1,5 @@
 requests
-spacy==3.0.9
+spacy==3.8.*
 spacy-legacy
 torch==2.0.0
 regex
