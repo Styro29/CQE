@@ -8,7 +8,7 @@ more_itertools
 fuzzywuzzy==0.18.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
 en_core_web_trf @https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.0.0/en_core_web_trf-3.0.0-py3-none-any.whl
-spacy-transformers==1.0.4
+spacy-transformers==1.3.*
 ordered-set
 inflect==5.4.0
 protobuf==3.20.1
